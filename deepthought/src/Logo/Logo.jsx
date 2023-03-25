@@ -10,11 +10,7 @@ function Logo() {
         <h2 className='deep'>DEEP</h2>
        <h2 className='thought'>THOUGHT</h2>
     </div>
-      
-
-      
-
-     
+        
     </div>
   )
 }

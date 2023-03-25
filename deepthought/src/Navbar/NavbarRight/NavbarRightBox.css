@@ -1,0 +1,32 @@
+.nav_right_container {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid green;
+  width: 311px;
+  height: 49px;
+
+
+}
+
+.icon_box {
+
+  height: 32.36602783203125px;
+  width: 30px;
+  border-radius: 100%;
+  background: rgba(54, 131, 240, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.bellicon_box{
+  height: 32.36602783203125px;
+  width: 30px;
+
+  border-radius: 100%;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
