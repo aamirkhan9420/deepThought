@@ -1,0 +1,8 @@
+.grid_parent_container{
+    margin: auto;
+    width: 90%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}

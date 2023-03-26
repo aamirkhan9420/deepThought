@@ -1,0 +1,12 @@
+
+.card_black_heading_box{
+
+    width: 100%;
+    height: fit-content; 
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+}
+.card_black_heading_box h3{
+    color: #FFFFFF;
+
+}

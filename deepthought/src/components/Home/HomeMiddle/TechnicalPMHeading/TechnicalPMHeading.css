@@ -1,0 +1,31 @@
+.main_container_heading {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+  height:8%;
+
+}
+
+.main_container_heading h3 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #0029FF;
+  border:  1px solid red;
+}
+
+.main_container_heading button {
+
+  border: none;
+  background: #0029FF;
+  border-radius: 10px;
+  height: 36px;
+  width: 121px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+
+}
