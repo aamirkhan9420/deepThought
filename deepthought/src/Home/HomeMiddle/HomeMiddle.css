@@ -1,0 +1,8 @@
+.middle_container{
+    width: 80%;
+    height: 100%;
+    border: 5px solid blue;
+    position: relative;
+    left: 10%;
+    right: 10%;
+}

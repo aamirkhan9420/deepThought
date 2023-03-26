@@ -1,0 +1,12 @@
+.home_parent_container {
+    width: 100%;
+}
+
+.home_main_container {
+    background-color: #F5F5F5;
+    height: 100vh;
+    border: 5px solid red;
+    display: flex;
+    align-items: flex-start;
+   
+}
