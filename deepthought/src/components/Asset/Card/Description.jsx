@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Description.css"
-function Description() {
+function Description({desc}) {
   return (
-    <div className='description_box'>description</div>
+    <div className='description_box'>{desc}</div>
   )
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./NavbarRightBox.css"
+import { FiMoreVertical } from "react-icons/fi";
 function NavbarRightBox() {
     return (
         <div className='nav_right_container'>
@@ -17,8 +18,8 @@ function NavbarRightBox() {
 
             </div>
             <div >
-
-                <i class="fa-regular fa-ellipsis-vertical" style={{ color: "#3683f0" }} ></i>
+<FiMoreVertical color='#3683f0' fontSize={25}/>
+                {/* <i className="fa-regular fa-ellipsis-vertical" style={{ color: "#3683f0" }} ></i> */}
             </div>
         </div>
     )

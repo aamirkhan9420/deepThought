@@ -1,4 +1,9 @@
-
+.card_main_box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
 .card_black_heading_box{
 
     width: 100%;

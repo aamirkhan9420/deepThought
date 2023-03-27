@@ -1,10 +1,10 @@
 import React from 'react'
 import "./NoteBox.css"
-function NoteBox() {
+function NoteBox({task_description, task_title}) {
     return (
         <div className='note_box_container'>
-            <h2>Explore the world of management</h2>
-            <h3>As a project manager, you play an important reole in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</h3>
+            <h2>{task_title}</h2>
+            <h3>{task_description}</h3>
         </div>
     )
 }

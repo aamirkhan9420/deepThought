@@ -4,12 +4,13 @@ import  "./HomeMiddle.css"
 import NoteBox from './NoteBox/NoteBox'
 import TechnicalPMHeading from './TechnicalPMHeading/TechnicalPMHeading'
 
-function HomeMiddleBox() {
+function HomeMiddleBox({assets ,task_description, task_title,title}) {
+      
   return (
     <div className='middle_container'>
-        <TechnicalPMHeading />
-        <NoteBox />
-        <GridBox />
+        <TechnicalPMHeading title={title}/>
+        <NoteBox task_description={task_description} task_title={task_title} />
+        <GridBox assets={assets}/>
     </div>
   )
 }

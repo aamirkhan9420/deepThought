@@ -1,14 +1,14 @@
 import React from 'react'
 import Card from '../Card/Card'
 import "./GridBox.css"
-function GridBox() {
+function GridBox({assets}) {
   return (
     <div className='grid_parent_container'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-
+        {assets.length>0&&assets.map((el,index)=>(
+          <Card key={index} props={el} />
+        ))
+       
+}
     </div>
   )
 }

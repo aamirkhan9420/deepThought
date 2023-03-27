@@ -1,9 +1,11 @@
 import React from 'react'
 import "./TechnicalPMHeading.css"
-function TechnicalPMHeading() {
+
+function TechnicalPMHeading({title}) {
+
   return (
     <div className='main_container_heading'>
-      <h3>Technical Project Management</h3>
+      <h3>{title}</h3>
       <button>Submit task</button>
     </div>
   )

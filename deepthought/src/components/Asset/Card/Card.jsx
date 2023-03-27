@@ -1,13 +1,18 @@
 import React from 'react'
 import "./Card.css"
 import Description from './Description'
-function Card() {
+import VideoBox from './VideoBox'
+import {  IoIosInformationCircleOutline } from "react-icons/io"
+function Card({props}) {
+  console.log(props)
   return (
-    <div>
+    <div className='card_main_box'>
         <div className='card_black_heading_box'>
-            <h3>Technical Project Management</h3>
+            <h3>{props.asset_title}</h3>
+            <IoIosInformationCircleOutline />
         </div>
-        <Description />
+        <Description  desc={props.asset_description}/>
+    { props.asset_content_type==="video"?  <VideoBox  vdo={props.asset_content}/>:""}
     </div>
   )
 }
