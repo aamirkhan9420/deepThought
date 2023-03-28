@@ -1,20 +1,27 @@
-.card_main_box{
+.card_main_box {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    max-height: 672px;
+    border: 1px solid red;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
 }
-.card_black_heading_box{
+
+.card_black_heading_box {
 
     width: 100%;
-    height: fit-content; 
+    height: fit-content;
     background: #000000;
     border-radius: 15px 15px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
-.card_black_heading_box h3{
+
+.card_black_heading_box h3 {
     color: #FFFFFF;
 
 }

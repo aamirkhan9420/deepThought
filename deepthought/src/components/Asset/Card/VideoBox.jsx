@@ -8,7 +8,7 @@ function VideoBox({ vdo }) {
                 src={vdo}
                 allowFullScreen
                 width="100%"
-                
+                height="300px"
             />
         </div>
     )

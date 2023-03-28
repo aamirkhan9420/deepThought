@@ -4,7 +4,7 @@
     background: #E9ECEF;
     border-radius: 5px;
     text-align: left;
-    padding: 15px;
+    /* padding: 15px; */
  }
 
 .note_box_container>div:first-child {
@@ -12,9 +12,13 @@
     font-weight: 700;
     font-size: 20px;
     color: #000000;
+    padding: 15px 15px 8px 15px;
+
 }
 
 .note_box_container >div:last-child {
     font-weight: 400;
     font-size: 16px; 
+    padding: 0px 15px 15px 15px;
+
 }
