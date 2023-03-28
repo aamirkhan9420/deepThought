@@ -1,5 +1,6 @@
 import React from 'react'
 import "./HomeLeft.css"
+import { FaArrowCircleLeft,FaArrowCircleRight } from "react-icons/fa"
 function HomeLeftBox() {
   function openNav() {
     document.getElementById("mySidenav").style.width = "25%";
@@ -15,7 +16,7 @@ function HomeLeftBox() {
   }
 
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "10%";
+    document.getElementById("mySidenav").style.width = "8%";
     document.getElementById("list").style.display = "none";
     document.getElementById("clsbtn").style.display = "none";
     document.getElementById("opnbtn").style.display = "block";
@@ -28,12 +29,10 @@ function HomeLeftBox() {
     <div id="mySidenav" class="sidenav">
       <div className='left_container_header'>
         <h3 id='heading'>Juorny Board</h3>
-        <button href="javascript:void(0)" class="closebtn" id='clsbtn' onClick={() => closeNav()}>
-          <span> &#x2190;</span>
-        </button>
-        <button style={{ fontSize: "30px;cursor:pointer" }} class="openbtn" id='opnbtn' onClick={() => openNav()}>
-          <span >&#x2192;</span>
-        </button>
+    
+        <FaArrowCircleLeft class="closebtn" id='clsbtn' onClick={() => closeNav()}/>  
+        <FaArrowCircleRight  className="openbtn" id='opnbtn' onClick={() => openNav()} />
+        
       </div>
 
       <div id='list'>

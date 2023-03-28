@@ -5,7 +5,10 @@ function TechnicalPMHeading({title}) {
 
   return (
     <div className='main_container_heading'>
-      <h3>{title}</h3>
+      <div>
+          {title}
+      </div>
+    
       <button>Submit task</button>
     </div>
   )

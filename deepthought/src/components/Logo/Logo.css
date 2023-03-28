@@ -1,40 +1,14 @@
 .nav_left_container {
 
-    width: 20%;
-    height: 49px;
-
+    /* width: 30%; */
+    height:67%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border: 1px solid red;
+    margin-left: 10%;
 }
-
-
-.logo_round {
-    height: 49px;
-    width: 49.105262756347656px;
-   
-    border-radius: 100%;
-    
-    background: #0029FF;
-
-
-}
-
-.name_box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid red;
+.nav_left_container >img{
+    width: 100%;
     height: 100%;
-    width: 55%;
-
-}
-
-.deep {
-    color: #000000;
-}
-
-.thought {
-    color: #0029FF;
 }

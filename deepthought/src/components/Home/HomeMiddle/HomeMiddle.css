@@ -1,14 +1,16 @@
-.middle_container{
-    width: 80%;
-    height: 100%;
-    border: 5px solid blue;
-    position: relative;
-    left: 10%;
-    right: 10%;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: flex-start;
+.middle_container {
+    margin: auto;
+    width: 90%;
 
- 
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top:0.3%;
+    padding-left: 7%;
+    padding-right: 7%;
+
+
+
 }

@@ -2,31 +2,23 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border: 1px solid green;
-  width: 311px;
-  height: 49px;
+  width: 15%;
+  height: 45%;
+  margin-right: 8%;
 
 
 }
 
 .icon_box {
 
-  height: 32.36602783203125px;
-  width: 30px;
+  height: 100%;
+  width: 15%;
   border-radius: 100%;
   background: rgba(54, 131, 240, 1);
   display: flex;
   align-items: center;
   justify-content: center;
   
-}
-.bellicon_box{
-  height: 32.36602783203125px;
-  width: 30px;
-
-  border-radius: 100%;
-   display: flex;
-  align-items: center;
-  justify-content: center;
 }
