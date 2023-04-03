@@ -29,7 +29,7 @@ function HomeRightBox() {
       <div className='chiled_div' ref={childeRef}>
         <RxCross2 color='white' className='icon' onClick={handleClose} />
         <div ref={checkRef} style={{ display: "none" }} >
-          <GoPlus color='white' onClick={handleOpen} fontSize={25}/>
+          <GoPlus color='white' onClick={handleOpen} fontSize={25} cursor={"pointer"}/>
         </div>
 
         <h3 className='vertical_text'>Notice Board</h3>

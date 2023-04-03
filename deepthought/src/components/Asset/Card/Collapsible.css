@@ -1,5 +1,5 @@
 .collapsible {
-  /* background-color: rgb(252, 247, 247); */
+
   color: black;
   cursor: pointer;
   padding: 18px;
@@ -8,6 +8,8 @@
   text-align: left;
   outline: none;
   font-size: 15px;
+  background: rgba(254, 255, 192, 0.2);
+
 }
 
 .arrow {
@@ -18,11 +20,11 @@
   margin-right: 10px;
 
 }
-.arrowup{
-  display: none;
-  border: solid black;
-  border-width: 4px 0 0 4px;
 
+.arrowup {
+  border: solid black;
+  border-width: 4px 0px 0px 4px;
+  display: inline-block;
   padding: 3px;
   margin-right: 10px;
 }
@@ -41,6 +43,14 @@
   margin-left: 5px;
 }
 
+.collapsible>div {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+
+
+}
+
 .down::after {
   transform: rotate(180deg);
 }
@@ -51,8 +61,9 @@
 }
 
 .content {
-  padding: 0 18px;
-  max-height: 0;
+  padding: 0 18px 18px 18px;
+  /* max-height: 560px; */
+  min-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
@@ -117,7 +128,6 @@
 .second_child_div {
   display: flex;
   width: 100%;
-  border: 1px solid red;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -127,7 +137,6 @@
 .icon_div {
   display: flex;
   width: 20%;
-  border: 1px solid red;
   align-items: center;
   justify-content: space-between;
   font-size: 25px;
@@ -141,23 +150,27 @@
   gap: 20px;
 
 }
-.btn_div{
+
+.btn_div {
   width: 100%;
   text-align: left;
   padding: 5px;
-  
+
 }
-.btn_div span{
+
+.btn_div span {
   font-size: 20px;
   font-weight: 700;
 
 }
-.btn_div button{
+
+.btn_div button {
   border: none;
   background: #0029FF;
   border-radius: 10px;
-  padding:8px 16px 8px 16px;
-  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+  padding: 8px 16px 8px 16px;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  ;
   font-weight: 500;
   font-size: 14px;
   color: #FFFFFF;
@@ -172,18 +185,18 @@
 .last_child_div {
   width: 100%;
   height: 200px;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   border-radius: 20px;
   background-color: #f1f1f1;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   margin-top: 20px;
- 
+
 }
-.last_child_div >input{
+
+.last_child_div>input {
   border: 0.1px solid #333333;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
@@ -194,10 +207,11 @@
   border: none;
   background-color: white;
 }
+
 .last_child_div>div {
   width: 100%;
   font-size: 14px;
   text-align: left;
   padding-left: 20px;
-border: 1px solid red;
+
 }

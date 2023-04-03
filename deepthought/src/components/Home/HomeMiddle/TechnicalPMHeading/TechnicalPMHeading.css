@@ -4,16 +4,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid red; */
   padding: 10px;
-  
+
 }
 
-.main_container_heading >div {
+.main_container_heading>div {
   font-weight: 700;
   font-size: 27px;
   color: #0029FF;
-  /* border:  1px solid red; */
+
 }
 
 .main_container_heading button {
@@ -21,8 +20,9 @@
   border: none;
   background: #0029FF;
   border-radius: 10px;
-  padding:10px 16px 10px 16px;
-  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+  padding: 10px 16px 10px 16px;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  ;
   font-weight: 500;
   font-size: 12px;
   color: #FFFFFF;

@@ -21,9 +21,10 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.icon{
+
+.icon {
     font-size: 40px;
-    
+    cursor: pointer;
 }
 
 .vertical_text {

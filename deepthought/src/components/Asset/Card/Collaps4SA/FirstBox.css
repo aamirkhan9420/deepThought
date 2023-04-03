@@ -1,0 +1,36 @@
+.container {
+    margin: auto;
+    width: 90%;
+    height: 50%;
+   
+}
+
+.collaps_box {
+    width: 100%;
+    height: 25%;
+  
+}
+
+.content_box {
+    width: 100%;
+    height: 75%;
+    
+
+}
+
+
+
+.collaps_box:after {
+    content: '';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+.content_box {
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: left;
+    padding-left: 10px;
+}

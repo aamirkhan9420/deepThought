@@ -3,10 +3,8 @@
 }
 
 .home_main_container {
-  
-    border: 1px solid red;
     display: flex;
     align-items: flex-start;
-    
-   
+
+
 }

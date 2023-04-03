@@ -6,16 +6,17 @@
     padding: 10px 0px 10px 2px;
     font-weight: 400;
     font-size: 12px;
-    
     color: #000000;
- 
+
 
 }
-.description_box span{
+
+.description_box span {
     color: #000000;
-   font-weight: 700;
-   font-size: 16px;
+    font-weight: 700;
+    font-size: 16px;
 }
-.description_box h3{
+
+.description_box h3 {
     margin-left: 5px;
 }

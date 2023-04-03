@@ -1,11 +1,10 @@
 .grid_parent_container{
     margin: auto;
     width: 85%;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 35px;
     padding: 30px;
-    height: 1200px;
+
    
 }

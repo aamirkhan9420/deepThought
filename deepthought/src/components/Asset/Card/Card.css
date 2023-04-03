@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    max-height: 672px;
-    border: 1px solid red;
+    max-height: fit-content;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 15px;
 }
